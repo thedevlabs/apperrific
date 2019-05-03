@@ -33,3 +33,22 @@ $ git push heroku master
 ```
 
 https://[your custom subdomain here].herokuapp.com/
+
+### Resources
+
+We are using the Github workflow, illustrated here:
+
+https://guides.github.com/introduction/flow/
+
+
+For more review and details, consider using the new Git lab courses:
+
+  https://lab.github.com
+
+- Intro to Github
+
+  https://lab.github.com/githubtraining/introduction-to-github
+
+- Create a release based workflow
+
+  https://lab.github.com/githubtraining/create-a-release-based-workflow
