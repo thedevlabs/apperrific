@@ -1,0 +1,2 @@
+# apperrific
+simple static site
