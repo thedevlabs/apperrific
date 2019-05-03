@@ -25,6 +25,7 @@ Once the repo has the homepage and stylesheet on the main branch, meaning all pu
 
 ```bash
 $ cd [project repo root directory]
+$ git checkout master 
 $ heroku apps
 $ heroku create
 $ git remote -v
