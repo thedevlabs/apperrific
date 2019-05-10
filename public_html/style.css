@@ -1,4 +1,4 @@
-html body {
+body {
 	box-sizing: border-box;
 	height: 300px;
 	width: 800px;
@@ -9,12 +9,12 @@ html body {
     border: 5px dotted gainsboro; 
 }
 .header {
-background-color: gray;
-background-image: url(http://getdrawings.com/san-francisco-bridge-vector#san-francisco-bridge-vector-25.png)
-text-align: center;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+	background-color: gray;
+	background-image: url(http://getdrawings.com/san-francisco-bridge-vector#san-francisco-bridge-vector-25.png)
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
-    color: lightblue
+	color: lightblue;
 }
