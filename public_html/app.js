@@ -8,6 +8,11 @@ document.addEventListener("DOMContentLoaded", function(){
   // https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
   var introElem = document.getElementById('intro');
 
+  function changeColor(newColor) {
+    var elem = document.getElementById('intro');
+    elem.style.color = newColor;
+  }
+
   // Put some text in there
 	introElem.textContent = "Hi. I'm in here. ";
   introElem.textContent += "This just got added. ";
