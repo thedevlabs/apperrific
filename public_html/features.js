@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function(){
   // Grab the UL element and count the number of LI nodes
   // https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
   var listElem = document.getElementById("navigation").getElementsByTagName("li");
-
+  listElem[0].textContent="My name is puja";
+  
   //debug out to the console
   console.log(listElem.length);
 
@@ -17,13 +18,14 @@ document.addEventListener("DOMContentLoaded", function(){
 
   //
   //  Run the function below that will multiple this the LI of places by 10 and display it at the H1 element
-  //
+    var outputOfIncreaseNumber=increaseNumber(listElem.length);
+    console.log(outputOfIncreaseNumber);
 
   // Grab the Tag Name
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName
-
+  var h1Element = document.getElementsByTagName("h1");
   // Display the new headline
-  //
+  h1Element[0].textContent=increaseNumber(listElem.length);
 
 });
 
