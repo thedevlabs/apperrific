@@ -1,20 +1,101 @@
-body {
-	box-sizing: border-box;
-	height: 300px;
-	width: 800px;
-	margin: auto;
-	padding: 50px;
-	/*Remove this background-color! It is here to make sure that the css and html are linked.*/
-	background-color: cornflowerblue;
-    border: 5px dotted gainsboro; 
+	body {
+		padding: 0;
+		margin: 0;
+	  }
+	  /*--- navigation bar ---*/
+	  .navbar {
+		background:#053969a6;
+	  }
+	  .nav-link,
+	  .navbar-brand {
+		color: #ffffff;
+		cursor: pointer;
+	  }
+	  .nav-link {
+		margin-right: 1em !important;
+	  }
+	  .nav-link:hover {
+		color:  yellow;
+	  }
+	  .navbar-collapse {
+		justify-content: flex-end;
+	  }
+
+	  .header {
+		background-image: url('https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F25583989%2F101442659479%2F1%2Foriginal.jpg?auto=compress&s=7211c2453d3eacb97e6d606052b7d80b');
+		background-size: cover;
+		background-position: center;
+		position: relative;
+	  }
+
+	  .overlay {
+		position: absolute;
+		min-height: 100%;
+		min-width: 100%;
+		left: 0;
+		top: 0;
+		background: rgba(0, 0, 0, 0.6);
+	  }
+
+	  .description {
+		left: 50%;
+		position: absolute;
+		top: 45%;
+		transform: translate(-50%, -55%);
+		text-align: center;
+	  }
+	  .description h1 {
+		color: #ffffff;
+	  }
+	  .description p {
+		color: #ffffff;
+		font-size: 20px;
+		line-height: 1.5;
+		}
+		
+		.description button {
+			background:#ffffff;
+			border-radius: 1;
+			color: black;
+		}
+		.description button:hover {
+			border:1px solid #fff;
+			background:#fff;
+			color:#000;
+		}
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+	position: relative;
 }
-.header {
-	background-color: gray;
-	background-image: url(http://getdrawings.com/san-francisco-bridge-vector#san-francisco-bridge-vector-25.png)
-	text-align: center;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+	width:  300px;
+	height: 300px;
 }
 
-h1 {
-	color: lightblue;
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+.features .btn {
+  background-color: #053969a6;
+  border: 1px solid ##053969a6;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.features .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
 }

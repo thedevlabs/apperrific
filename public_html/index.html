@@ -1,35 +1,79 @@
 <!doctype html>
 <html>
 <head>
-    <title>San Francisco</title>
-    <link rel="stylesheet" href="style.css">
+        <title>San Francisco</title>
     <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="features.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="mainpage">
-    <h1>A Guide to Exploring San Francisco</h1>
-    <p id="intro"></p>
-    <button onclick="changeColor('blue');">blue</button>
-    <button onclick="changeColor('red');">red</button>
-    <span id="mousy"></span>
-    <nav>
-        <ul id="navigation">
-            <li class="nav-item">Best Time to Visit</li>
-            <li class="nav-item">Places to See</li>
-            <li class="nav-item">Things to Do</li>
-            <li class="nav-item">Food and Drinks</li>
-        </ul>
-    </nav>
-    <div id="stats"></div>
-    <h2 class="headlines">Best Time to Visit</h2>
-    <p>San Francisco has a mediterranean climate. Being a peninsula, it remains pretty cool throughout the year, with most of the rainfall occurring during the winter and spring seasons. You should visit the city during the summer and fall seasons, but keep in mind that this is also peak tourist season.</p>
-    <h2 class="headlines">Places to See</h2>
-    <p>San Francisco is great for sight-seeing, and there are many not as known lookout points that provide you with fantastic views of the city's skyline.</p>
-    <h2 class="headlines">Things to Do</h2>
-    <p>There is always an activity or event happening every day in the city. </p>
-    <h2 class="headlines">Food and Drinks</h2>
-    <p>The city is full of foods from across the entire universe. You can find almost any type of cuisine with ease.</p>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">Movement Tech</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <header class="page-header header container-fluid">
+        <div class="overlay"></div>
+        <div class="description">
+                <h1>A Guide to Exploring San Francisco</h1>
+                <p>Discover great eats, scenic views, and hidden gems in the city by the Bay!</p>
+                <button type="button" class="btn btn-light">Let's get started!</button>
+              </div>
+    </header>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+
+    <div class="container features">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="feature-title">Places to Eat</h3>
+          <img src="http://sfeltoro.com/images-el-toro-taqueria-san-francisco/squares/platters-mexican-restaurant-san-francisco.jpg" class="img-fluid">
+          <p>San Francisco is incredibly diverse in terms of the different types of cuisines you want to try. Eating throughout the city is a great way to enjoy tasty food and also experience a vast array of cultures.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="feature-title">Sightseeing</h3>
+          <img src="https://live.staticflickr.com/3818/10651607614_ba81a44442_b.jpg" class="img-fluid">
+          <p>The city has great views of the skyline as well as more natural viewpoints. Where ever you decide to go, there will always be a view or destination to enjoy.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Subscribe here to get more inside tips!</h3>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name" name="">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email Address" name="email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="4"></textarea>
+            </div>
+            <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">    
+        </div>
+      </div> 
+    </div>
+    
 </body>
     
 </html>
