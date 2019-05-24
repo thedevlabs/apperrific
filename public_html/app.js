@@ -1,4 +1,7 @@
 $(document).ready(function(){
-  $('.header').height($(window).height());
-})
 
+  console.log('im in here');
+
+  $('.header').height($(window).height());
+
+});
