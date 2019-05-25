@@ -1,93 +1,79 @@
 <!doctype html>
 <html>
 <head>
- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-    <title>San Francisco</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="app.js"></script>
-    <script type="text/javascript" src="features.js"></script>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>San Francisco</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body id="mainpage">
-    <h1>A Guide to Exploring San Francisco</h1>
-    <img src="" height:"300" width="300"
-    <p id="intro"></p>
-    <span id="mousy"></span>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">San Francisco</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#food">Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sights">Sightseeing</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">San Francisco</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Food</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sightseeing</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+  <h1>A Guide to Exploring San Francisco</h1>
+  <p><img src="https://images.unsplash.com/photo-1503985466459-944ddaa2208a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo" ></p>
+  <p><img src="https://images.unsplash.com/photo-1544135178-09f2547ac16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo" ></p>
+  <p><img src="https://images.unsplash.com/photo-1521488489514-259b1f9a1dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
 
-        <p><img src="https://images.unsplash.com/photo-1503985466459-944ddaa2208a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1498&q=80" alt="Smiley face" style="float:right;width:300px;height:200px;"></p>
-        <p><img src="https://images.unsplash.com/photo-1544135178-09f2547ac16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2846&q=80" alt="Smiley face" style="float:right;width:300px;height:200px;"></p>
-        <p><img src="https://images.unsplash.com/photo-1521488489514-259b1f9a1dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Smiley face" style="float:right;width:300px;height:200px;"></p>
+  <h2 class="headlines">Best Time to Visit</h2>
+  <p>San Francisco has a mediterranean climate. Being a peninsula, it remains pretty cool throughout the year, with most of the rainfall occurring during the winter and spring seasons. You should visit the city during the summer and fall seasons, but keep in mind that this is also peak tourist season.</p>
+  <p><img src="https://images.unsplash.com/photo-1546278343-cd81537c5dd5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
+  <p><img src="https://images.unsplash.com/photo-1506288042733-605872821278?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
+  <p><img src="https://images.unsplash.com/photo-1543337425-8c469390e715?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
 
-     </p>
+  <h2 class="headlines" id="sights">Places to See</h2>
+  <p>San Francisco is great for sight-seeing, and there are many not as known lookout points that provide you with fantastic views of the city's skyline.</p>
+  <ul>
+    <li>Pier 39</li>
+    <li>Coit tower</li>
+    <li>Chinatown</li>
+    <li>Downtown</li>
+    <li>Alcatraz Island</li>
+    <li>Lombard Street</li>
+    <li>Golden Gate Bridge</li>
+    <li>Marine Headlands</li>
+    <li>Baker Beach, Ocean Beach</li>
+  </ul>
 
-    <div id="stats"></div>
-    <h2 class="headlines">Best Time to Visit</h2>
-    <p>San Francisco has a mediterranean climate. Being a peninsula, it remains pretty cool throughout the year, with most of the rainfall occurring during the winter and spring seasons. You should visit the city during the summer and fall seasons, but keep in mind that this is also peak tourist season.</p>
-    <p><img src="https://images.unsplash.com/photo-1546278343-cd81537c5dd5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1336&q=80" alt="Smiley face" style="float:right;width:300px;height:200px;"></p>
-    <p><img src="https://images.unsplash.com/photo-1506288042733-605872821278?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Smiley face" style="float:right;width:300px;height:200px;"></p>
-    <p><img src="https://images.unsplash.com/photo-1543337425-8c469390e715?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Smiley face" style="float:right;width:300px;height:200px;"></p>
+  <p><img src="https://images.unsplash.com/photo-1526349788808-b8761b7b4bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
+  <p><img src="https://images.unsplash.com/photo-1444210971048-6130cf0c46cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
+  <p><img src="https://images.unsplash.com/photo-1536627620875-2182df85cd87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
 
+  <h2 class="headlines">Things to Do</h2>
+  <p>There is always an activity or event happening every day in the city. Go for a cable car ride downtown. Take a stroll at Chinatown
+     and enjoy the delicious freshly baked bakery items. Seal watch at the pier or enjoy the beautiful view from the Coit tower. Visit the beautiful 
+     natural beauty of Marine Headlands and enjoy the scenic route on the way</p>
+  <p><img src="https://images.unsplash.com/photo-1493278125710-29e0d5195764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
+  <p><img src="https://images.unsplash.com/photo-1503267509980-772860efc568?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
+  <p><img src="https://images.unsplash.com/photo-1512006156684-0844f9292f1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
 
-    <h2 class="headlines">Places to See</h2>
-    <p>San Francisco is great for sight-seeing, and there are many not as known lookout points that provide you with fantastic views of the city's skyline.
-        *Pier 39
-        *Coit tower
-        *Chinatown
-        *Downtown
-        *Alcatraz Island
-        *Lombard Street
-        *Golden Gate Bridge
-        *Marine Headlands
-        *Baker Beach, Ocean Beach
+  <h2 class="headlines" id="food">Food and Drinks</h2>
+  <p>The city is full of foods from across the entire universe. You can find almost any type of cuisine with ease.</p>
 
-    </p>
-
-    <p><img src="https://images.unsplash.com/photo-1526349788808-b8761b7b4bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1448&q=80" alt="Smiley face" style="float:left;width:300px;height:200px;"></p>
-    <p><img src="https://images.unsplash.com/photo-1444210971048-6130cf0c46cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80" alt="Smiley face" style="float:right;width:300px;height:200px;"></p>
-    <p><img src="https://images.unsplash.com/photo-1536627620875-2182df85cd87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1498&q=80" alt="Smiley face" style="float:right;width:300px;height:200px;"></p>
-
-    
-    <h2 class="headlines">Things to Do</h2>
-    <p>There is always an activity or event happening every day in the city. Go for a cable car ride downtown. Take a stroll at Chinatown and enjoy the delicious freshly baked bakery items. Seal watch at the pier or enjoy the beautiful view from the Coit tower. Visit the beautiful natural beauty of Marine Headlands and enjoy the scenic route on the way</p>
-
-    <p><img src="https://images.unsplash.com/photo-1493278125710-29e0d5195764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80" alt="Smiley face" style="float:right;width:300px;height:200px;"></p>
-    <p><img src="https://images.unsplash.com/photo-1503267509980-772860efc568?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" alt="Smiley face" style="float:right;width:300px;height:200px;"></p>
-    <p><img src="https://images.unsplash.com/photo-1512006156684-0844f9292f1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Smiley face" style="float:right;width:300pxr;height:200px;"></p>
-
-
-    <h2 class="headlines">Food and Drinks</h2>
-    <p>The city is full of foods from across the entire universe. You can find almost any type of cuisine with ease.</p>
-    </body>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="app.js"></script>
 </body>
-    
 </html>
