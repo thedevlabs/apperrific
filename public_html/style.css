@@ -1,7 +1,5 @@
 body {
 	box-sizing: border-box;
-	height: 1500px;
-	width: 1000px;
 	margin: auto;
 	padding: 50px;
 	/*Remove this background-color! It is here to make sure that the css and html are linked.*/
@@ -11,17 +9,13 @@ body {
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-attachment: fixed;
-	  }
-
-	  }
 }
+
 .header {
-	background-color:;
 	text-align: center;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	color: orangered
-
-};
+	color: orangered;
+}
 
 h1 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -31,5 +25,4 @@ h1 {
 h2 {
 	font-family: 'Courier New', Courier, monospace;
 	font-style: inherit;
-
 }
