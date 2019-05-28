@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
-<body id="mainpage">
+<body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">San Francisco</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,11 +30,29 @@
       </form>
     </div>
   </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        One of three columns
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+    </div>
+  </div>
 
-  <h1>A Guide to Exploring San Francisco</h1>
-  <p><img src="https://images.unsplash.com/photo-1503985466459-944ddaa2208a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo" ></p>
-  <p><img src="https://images.unsplash.com/photo-1544135178-09f2547ac16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo" ></p>
-  <p><img src="https://images.unsplash.com/photo-1521488489514-259b1f9a1dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
+  <div class="container-fluid">
+    <h1>A Guide to Exploring San Francisco</h1>
+    <div>
+      <img src="https://images.unsplash.com/photo-1503985466459-944ddaa2208a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo" ></div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1544135178-09f2547ac16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo" ></div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1521488489514-259b1f9a1dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></div>
+  </div>
 
   <h2 class="headlines">Best Time to Visit</h2>
   <p>San Francisco has a mediterranean climate. Being a peninsula, it remains pretty cool throughout the year, with most of the rainfall occurring during the winter and spring seasons. You should visit the city during the summer and fall seasons, but keep in mind that this is also peak tourist season.</p>
@@ -56,9 +74,11 @@
     <li>Baker Beach, Ocean Beach</li>
   </ul>
 
-  <p><img src="https://images.unsplash.com/photo-1526349788808-b8761b7b4bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
-  <p><img src="https://images.unsplash.com/photo-1444210971048-6130cf0c46cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
-  <p><img src="https://images.unsplash.com/photo-1536627620875-2182df85cd87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
+  <p><img class="mx-auto a-block"  src="https://images.unsplash.com/photo-1526349788808-b8761b7b4bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
+  <p><img class="mx-auto b-block"  src="https://images.unsplash.com/photo-1444210971048-6130cf0c46cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
+  <p><img class="mx-auto c-block" src="https://images.unsplash.com/photo-1536627620875-2182df85cd87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="SF photo"></p>
+
+  <div class="clearfix"></div>
 
   <h2 class="headlines">Things to Do</h2>
   <p>There is always an activity or event happening every day in the city. Go for a cable car ride downtown. Take a stroll at Chinatown
