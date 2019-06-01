@@ -1,20 +1,35 @@
 body {
 	box-sizing: border-box;
-	height: 300px;
-	width: 800px;
+	height: 1500px;
+	width: 1000px;
 	margin: auto;
 	padding: 50px;
 	/*Remove this background-color! It is here to make sure that the css and html are linked.*/
-	background-color: cornflowerblue;
-    border: 5px dotted gainsboro; 
+	background-color: gray;
+	border: 5px  black; 
+	background-image: url("https://images.unsplash.com/photo-1471229058801-75ee9a43ef35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1532&q=80");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	  }
+
+	  }
 }
 .header {
-	background-color: gray;
-	background-image: url(http://getdrawings.com/san-francisco-bridge-vector#san-francisco-bridge-vector-25.png)
 	text-align: center;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: orangered;
+
+};
+color: orangered;
+}
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: oblique;
 }
 
-h1 {
-	color: lightblue;
+h2 {
+	font-family: 'Courier New', Courier, monospace;
+	font-style: inherit;
+
 }
