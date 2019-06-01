@@ -15,7 +15,7 @@
 		margin-right: 1em !important;
 	  }
 	  .nav-link:hover {
-		color:  yellow;
+		color:  green;
 	  }
 	  .navbar-collapse {
 		justify-content: flex-end;
