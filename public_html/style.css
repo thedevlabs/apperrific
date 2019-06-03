@@ -3,7 +3,7 @@ body {
 	margin: auto;
 	padding: 50px;
 	/*Remove this background-color! It is here to make sure that the css and html are linked.*/
-	background-color: white;
+	background-color: pink;
 	border: 5px  black; 
 	background-image: url(");
 	background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body {
 .header {
 	text-align: center;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	color: orangered;
+	color: yellow;
 };
 h1 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
